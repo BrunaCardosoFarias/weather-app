@@ -1,0 +1,26 @@
+body{
+  background-image: linear-gradient(to right,#d15318, #E8751A, #FDA403);
+}
+h1
+{
+  color: #898121;
+  font-size: 50px;
+  display: flex;
+  justify-content: center; 
+  margin:50px;
+  padding: 15px;
+  width: 100vw;
+}
+
+div{
+  color: #131c2c;
+  height: 100vh;
+  width: 100vw;
+ 
+ 
+}
+
+#input{
+  width: 88px;
+}
+
