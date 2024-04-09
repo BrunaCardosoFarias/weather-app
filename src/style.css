@@ -1,26 +1,65 @@
-body{
-  background-image: linear-gradient(to right,#d15318, #E8751A, #FDA403);
-}
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
 h1
 {
-  color: #898121;
+  color: #2F4F4F;
   font-size: 50px;
   display: flex;
   justify-content: center; 
-  margin:50px;
-  padding: 15px;
-  width: 100vw;
+  margin:0;
+  padding: 50px;
 }
 
 div{
   color: #131c2c;
   height: 100vh;
   width: 100vw;
- 
- 
+
 }
 
-#input{
-  width: 88px;
+.input{
+  display: flex;
+  justify-content: center; 
+  padding: 50px;
+  height: 50px;
 }
 
+h2,p{
+  display: flex;
+  justify-content: center;
+  color: #273d3d;
+  }
+  p{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 35px;
+  }
+
+  .form{
+  width: 65vw;
+  margin: 0 auto; 
+  line-height: 2;
+  height: fit-content;
+  }
+  .button {
+    letter-spacing: 1.3px;
+    font-weight: 700;    
+    background: linear-gradient(90deg, rgb(168, 192, 189) 0%, rgba(79,209,197,1) 100%);
+    border: none;    
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;    
+    min-width: '117px';
+    min-height: '50px';  
+    border-radius: 5px;
+    margin-left:3px;
+    }
+    .input-city{
+      font-weight: 700;  
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+
+  
+  
